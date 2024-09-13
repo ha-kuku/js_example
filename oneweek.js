@@ -66,4 +66,15 @@ console.log(joined);
 //문자열 길이 찾기//
 var browserType = "chrome";
 browserType.length;
-return;
+//--------------------------------------------------------------------------
+
+//if else 구문
+let Anum = 5;
+let Bnum;
+
+if (Anum > 1) {
+  Bnum = 20;
+} else {
+  Bnum = 10;
+}
+console.log(Bnum);
