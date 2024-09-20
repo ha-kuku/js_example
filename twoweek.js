@@ -60,7 +60,14 @@ class Person {
     this.age = age;
     this.city = city;
   }
+  nextYearAge() {
+    return Number(this.age) + 1;
+  }
 }
 
-let kim = new Person("lee", "26", "ansan");
-console.log(lee);
+let lee = new Person("lee", "26", "ansan");
+lee.eat = function () {
+  return "chicken";
+};
+console.log("이씨가 내년에는 몇살인가요?" + lee.nextYearAge());
+console.log("이씨가 먹은건?" + lee.eat());
