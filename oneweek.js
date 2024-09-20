@@ -87,4 +87,5 @@ while (n < 3) {
   x += n;
 }
 console.log(n);
-return;
+
+// for / for in / for of / forEach() / while / do...while/ class / class + 인스턴스 / 인스턴스 메소드
