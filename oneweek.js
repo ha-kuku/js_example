@@ -78,3 +78,13 @@ if (Anum > 1) {
   Bnum = 10;
 }
 console.log(Bnum);
+
+//while 구문
+n = 0;
+x = 0;
+while (n < 3) {
+  n++;
+  x += n;
+}
+console.log(n);
+return;
