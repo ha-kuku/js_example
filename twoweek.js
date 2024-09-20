@@ -32,3 +32,35 @@ const food = ["ramen", "rice", "pizza"];
 array.forEach((food) => {
   console.log(food);
 });
+
+//while 구문
+n = 0;
+x = 0;
+while (n < 3) {
+  n++;
+  x += n;
+}
+console.log(n);
+
+//do while 구문
+let i;
+const p = "pizza";
+do {
+  i = 5;
+} while (i > 5);
+{
+  console.log(p);
+}
+
+//class 생성
+class Person {
+  constructor(name, age, city) {
+    console.log("construtor");
+    this.name = name;
+    this.age = age;
+    this.city = city;
+  }
+}
+
+let kim = new Person("lee", "26", "ansan");
+console.log(lee);
